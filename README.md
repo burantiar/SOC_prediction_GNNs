@@ -2,7 +2,7 @@
 
 | File | Purpose |
 |---|---|
-| `preprocessing.py` | Load existing dadaset, remove exact duplicates, create 50 km blocks, fit training-only preprocessing; shared metrics/output helpers |
+| `preprocessing.py` | Load existing dataset, remove exact duplicates, create 50 km blocks, fit training-only preprocessing; shared metrics/output helpers |
 | `baselines.py` | Ridge, Random Forest, Extra Trees, XGBoost, MLP, and Ridge regression kriging |
 | `pe_gnn.py` | GCN, GraphSAGE, GAT and TransformerConv, with and without positional encoding; shared neural training loop |
 | `moran.py` | Training-only local Moran auxiliary target and weights 0.25, 0.5, 0.75 |
