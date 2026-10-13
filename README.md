@@ -11,7 +11,7 @@
 ## Data preprocessing
 
 The input is the already-created LUCAS 2015/2018 covariate CSV. 
-The target is `ln(OC)`, with no offset; SOC must be finite and positive. 
+The target is `ln(SOC)`, with no offset; SOC must be finite and positive. 
 `season` identifies survey year.
 
 ## Run
